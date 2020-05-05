@@ -6,31 +6,14 @@
 
 ## Tools 
 
-+ Cloud 
-  + AWS and CloudFormation
- 
-+ Container Engine
-  + Docker, Docker-compose 
-
-+ Configuration Managment 
-  + Ansible
-  
-+ Testing 
-  + Jmeter
- 
-+ Source Code Managment 
-  + GitLab
-
-+ Scheduling
-  + Jenkins
- 
-+ Security
-  + Clair
-  + Gauntlt
-  
-+ Notification
-  + Slack
-  + Email
+- Cloud : AWS, (EC2, CloudFormation, IAM, AWSCLI...)
+- Container Engine : Docker
+- Configuration Managment: Ansible
+- Testing : Jmeter
+- Source Code Managment : GitLab
+- Scheduling : Jenkins
+- Security: Clair, Gauntlt
+- Notification: Slack, Email
 
 ## Project 
 
@@ -52,7 +35,8 @@ We wanted to reproduce an enterprise-type infrastructure with 4 servers:
 #### Infrastructure Diagram
 
 
-à venir 
+![infra](https://user-images.githubusercontent.com/58267422/81116041-004f9980-8f25-11ea-985b-349da4d1097c.png)
+
 
 
 ### Choice and description of tools
@@ -119,7 +103,8 @@ Continuous Delivery on the **”Master”** branch:
 #### Workflow Diagram
 ------------
 
-image à venir
+![workflow_devsecops](https://user-images.githubusercontent.com/58267422/81118143-a8b32d00-8f28-11ea-8508-dab0a8921ab2.png)
+
 
 ------------
 
@@ -129,5 +114,6 @@ Docker, docker-compose, Ansible, Tags, Playbooks, Roles, Galaxy, Jenkins, Shared
 
 ### Reference repository
 
-+ [Source code development](https://github.com/samiamoura/fake-backend-continuousIntegration.git "Source code development")
-+ [Shared-library](https://github.com/samiamoura/shared-library.git "Shared-library")
++ [Source code development](https://github.com/samiamoura/devsecops-phonebook/tree/master/phonebook-application "Source code development")
++ [Shared-library](https://github.com/samiamoura/devsecops-phonebook/tree/master/shared-library "Shared-library")
++ [Docker Jmeter](https://github.com/samiamoura/devsecops-phonebook/tree/master/docker-jmeter "Docker Jmeter")
