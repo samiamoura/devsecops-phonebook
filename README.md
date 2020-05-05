@@ -52,7 +52,7 @@ We wanted to reproduce an enterprise-type infrastructure with 4 servers:
 #### Infrastructure Diagram
 
 
-![infra shcem](https://user-images.githubusercontent.com/58267422/78931750-b0f18700-7aa6-11ea-812f-27b436758366.png)
+à venir 
 
 
 ### Choice and description of tools
@@ -73,7 +73,7 @@ We wanted to reproduce an enterprise-type infrastructure with 4 servers:
 + DevSecOps:
   + Clair Image Scanner:
     + Identify vulnerabilities in built images
- + Attack generation with Gauntlt:
+  + Attack generation with Gauntlt:
     + Execute attack scenarios to identify vulnerabilities in our web application :
       + xss attack
       + curl attack
