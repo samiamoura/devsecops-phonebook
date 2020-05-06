@@ -103,7 +103,7 @@ Continuous Delivery on the **”Master”** branch:
 #### Workflow Diagram
 ------------
 
-![workflow_devsecops](https://user-images.githubusercontent.com/58267422/81118143-a8b32d00-8f28-11ea-8508-dab0a8921ab2.png)
+![workflow_devsecops](https://user-images.githubusercontent.com/58267422/81198717-195a5800-8fc2-11ea-845b-046d2e5616a8.png)
 
 
 ------------
